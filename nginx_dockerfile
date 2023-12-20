@@ -1,0 +1,11 @@
+FROM nginx:stable-alpine3.17-slim
+WORKDIR /usr/src/app
+COPY . index.html /usr/share/nginx/html/
+
+
+
+ENV MY_ENV=netology
+
+
+
+
